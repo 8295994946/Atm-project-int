@@ -96,7 +96,7 @@ while(True):
                     t.sleep(1)
                     confirm = input(("Confirm? Y/N > "))
                     if confirm in ('Y', 'y'):
-                        user_pin = new_pin
+                        user_pin = pin_new
                         print("PIN Changed Successfully! \n\n")
                     else:
                         print("Cancelling PIN Change...")
